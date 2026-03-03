@@ -1,0 +1,10 @@
+﻿{
+  "name": "@ecu-tuner/reporting-service",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "nest build",
+    "start:dev": "nest start --watch",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  }
+}

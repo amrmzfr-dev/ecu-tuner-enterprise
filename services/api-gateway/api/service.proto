@@ -1,0 +1,4 @@
+﻿syntax = "proto3";
+package api-gateway;
+
+// Define gRPC methods here

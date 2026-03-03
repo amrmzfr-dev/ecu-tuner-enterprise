@@ -1,0 +1,4 @@
+﻿syntax = "proto3";
+package datalog-service;
+
+// Define gRPC methods here

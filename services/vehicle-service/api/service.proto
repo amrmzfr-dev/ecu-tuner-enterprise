@@ -1,0 +1,4 @@
+﻿syntax = "proto3";
+package vehicle-service;
+
+// Define gRPC methods here
