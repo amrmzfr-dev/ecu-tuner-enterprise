@@ -43,3 +43,18 @@ services:
     image: hashicorp/vault:latest
     ports: ["8200:8200"]
     environment: { VAULT_DEV_ROOT_TOKEN_ID: dev-token }
+
+  minio:
+    image: minio/minio:latest
+    ports:
+      - "9000:9000"     # S3 API
+      - "9001:9001"     # Web console
+    environment:
+      MINIO_ROOT_USER: ecutuner_minio_dev
+      MINIO_ROOT_PASSWORD: ecutuner_minio_secret_2026
+    command: server /data --console-address ":9001"
+    volumes:
+      - minio_data:/data
+
+volumes:
+  minio_data:

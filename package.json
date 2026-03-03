@@ -1,0 +1,31 @@
+{
+  "name": "software-engine-tuning",
+  "version": "1.0.0",
+  "description": "cd infrastructure/docker docker-compose up",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amrmzfr-dev/ecu-tuner-enterprise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/amrmzfr-dev/ecu-tuner-enterprise/issues"
+  },
+  "homepage": "https://github.com/amrmzfr-dev/ecu-tuner-enterprise#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
+    "eslint": "^10.0.2",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
+  }
+}
